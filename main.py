@@ -15,8 +15,7 @@ titles = []
 title = []
 driver = webdriver.Chrome(ChromeDriverManager().install())
 urllist = [
-    "https://www.suruga-ya.jp/search?category=&search_word=%E5%A4%8F%E5%92%B2%E8%A9%A0&searchbox=1&is_marketplace=0",
-    "https://www.suruga-ya.jp/search?category=&search_word=%E7%8B%97%E7%A5%9E%E7%85%8C&is_marketplace=0"]
+    ] #网址列表
 for parenturl in urllist:
     driver.get(parenturl)
     html = driver.page_source

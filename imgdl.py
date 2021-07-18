@@ -5,7 +5,7 @@ import winsound
 import requests
 from retry import retry
 
-path = 'E:\GALGAME相关\中古爬取\img'  # 父文件夹
+path = ''  # 父文件夹
 
 
 def getImg(url, title):
